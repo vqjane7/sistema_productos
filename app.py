@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 app.config['MYSQL_HOST'] = '127.0.0.1'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Facil123*'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'sistema_productos'
-app.config['MYSQL_PORT'] = '3308'
+app.config['MYSQL_PORT'] = 3308
 mysql = MySQL(app)
 
 @app.route('/')
